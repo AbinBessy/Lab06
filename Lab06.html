@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextBox</title>
+    <script src="print.js"></script>
+</head>
+<body>
+    <h1 style="color:black; text-align: center; font-size: larger;">Fill out the form given below</h1>
+<div style="text-align: center;">
+    <label for="firstName">First Name:</label>
+<input type="text" id="firstName" name="firstName">
+<br>
+<br>
+
+<label for="lastName">Last Name:</label>
+<input type="text" id="lastName" name="lastName">
+<br>
+<br>
+<label for="mark1">Mark 1:</label>
+<input type="text" id="mark1" name="mark1">
+<br>
+<br>
+<label for="mark2">Mark 2:</label>
+<input type="text" id="mark2" name="mark2">
+<br>
+<br>
+<label for="mark3">Mark 3:</label>
+<input type="text" id="mark3" name="mark3">
+<br>
+<br>    
+<button onclick="validateTxt()">Validate</button>
+<button onclick="printResult()">Print Result</button>
+</div>
+
+<p id="result"></p>
+
+</body>
+</html>
